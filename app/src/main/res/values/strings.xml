@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cinemov</string>
+    <string name="title_activity_login">Cinemov</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="completar_cadastro">Vamos agora completar o seu cadastro</string>
+    <string name="data_nascimento">Data de Nascimento</string>
+</resources>

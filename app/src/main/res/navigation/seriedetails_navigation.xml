@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seriedetails_navigation"
+    app:startDestination="@id/seriesDetailsFragment2">
+
+    <fragment
+        android:id="@+id/seriesDetailsFragment2"
+        android:name="br.thales.cinemov.ui.main.SeriesDetailsFragment2"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_seriesDetailsFragment2_to_seasonDetailsFragment"
+            app:destination="@id/seasonDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seasonDetailsFragment"
+        android:name="br.thales.cinemov.ui.main.SeasonDetailsFragment"
+        android:label="season_details_fragment"
+        tools:layout="@layout/season_details_fragment" />
+</navigation>

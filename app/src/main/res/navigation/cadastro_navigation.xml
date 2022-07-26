@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cadastro_navigation"
+    app:startDestination="@id/cadastro1Fragment">
+
+    <fragment
+        android:id="@+id/cadastro1Fragment"
+        android:name="br.thales.cinemov.Cadastro1Fragment"
+        android:label="cadastro1_fragment"
+        tools:layout="@layout/cadastro1_fragment" >
+        <action
+            android:id="@+id/action_cadastro1Fragment_to_cadastro2Fragment"
+            app:destination="@id/cadastro2Fragment" />
+        <action
+            android:id="@+id/action_cadastro1Fragment_to_pesquisaFragment"
+            app:destination="@id/pesquisaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadastro2Fragment"
+        android:name="br.thales.cinemov.Cadastro2Fragment"
+        android:label="cadastro2_fragment"
+        tools:layout="@layout/cadastro2_fragment" >
+        <action
+            android:id="@+id/action_cadastro2Fragment_to_pesquisaFragment"
+            app:destination="@id/pesquisaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pesquisaFragment"
+        android:name="br.thales.cinemov.PesquisaFragment"
+        android:label="pesquisa_fragment"
+        tools:layout="@layout/pesquisa_fragment" />
+</navigation>

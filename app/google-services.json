@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "335935853052",
+    "project_id": "cinemovv",
+    "storage_bucket": "cinemovv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335935853052:android:f0f3be9427c0d184c96279",
+        "android_client_info": {
+          "package_name": "br.thales.cinemov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335935853052-8sj6clt58lrjko8gb4796fgapjvte7e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.thales.cinemov",
+            "certificate_hash": "306d400d90ac06243610455ecc09ae2e143db415"
+          }
+        },
+        {
+          "client_id": "335935853052-4s87mt6n4v64hqd7i7qcj85a5des96fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQHOnWoBGr-d0JjD3jHxRNvVstSgmB8JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335935853052-4s87mt6n4v64hqd7i7qcj85a5des96fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

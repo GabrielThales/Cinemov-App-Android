@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="br.thales.cinemov.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_filmeDetails"
+            app:destination="@id/filmeDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmeDetails"
+        android:name="br.thales.cinemov.MovieDetailsFragment"
+        android:label="filme_details_fragment"
+        tools:layout="@layout/filme_details_fragment" >
+        <action
+            android:id="@+id/action_filmeDetails_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
